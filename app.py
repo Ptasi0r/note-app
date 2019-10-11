@@ -2,8 +2,7 @@ import sys
 import os
 
 #todo jezeli ostatnie jest rozszerzenie lub podano tylko nazwę notatka tworzy się w domyśnyn folderze.
-# support txt py and md file
-# .txt: text, txt, .txt; .py python yp .py; .md: md .md markdown
+# todo jeżeli rozszerzenia nie ma na ost. miejscu sprawdx przedostatnie!
 python = ".py"
 text = ".txt"
 markdown = '.md'
