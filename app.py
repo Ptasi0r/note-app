@@ -65,6 +65,21 @@ class Note:
     # TODO i wyświetl informację w forimie:
     # TODO ZNALEZIONE NOTATKI:
     # TODO 1. nazzwa in notes/folder_name
+    # TODO https://stackoverflow.com/questions/25370774/how-to-check-if-multiple-files-exist-in-different-directories?rq=1
+    # from os import listdir
+    # from os.path import isdir, isfile, join
+    # base_path = "gamedata/areas/"
+    # files = listdir(base_path)
+    # only_directories = [path for path in files if isdir(join(base_path,path))]
+    #
+    # for directory_path in only_directories:
+    #     dir_path = join(base_path, directory_path)
+    #     for file_path in listdir(dir_path):
+    #         full_file_path = join(base_path, dir_path, file_path)
+    #         is_file = isfile(full_file_path)
+    #         is_example = "example" in file_path
+    #         if is_file and is_example:
+    #             print "Found One!!"
 
 
 if __name__ == "__main__":
